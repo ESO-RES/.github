@@ -1,0 +1,19 @@
+name: ✨ Feature / Idea Request
+description: Suggest a new feature, improvement, or idea
+description: Suggest a new feature, improvement, or idea for the reservoir
+title: '[IDEA] '
+labels: ['enhancement']
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What do you want to add or change?
+      description: Describe your idea in as much detail as you like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this useful?
+      description: What problem does this solve? What does it enable?
